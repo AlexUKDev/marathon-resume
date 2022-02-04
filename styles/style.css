@@ -11,6 +11,11 @@ body {
   color: #fb6d3a;
 }
 
+.castomStyleAndSize {
+  color: #a8a8a8;
+  font-size: 12px;
+}
+
 .mainSection {
   display: flex;
   flex-direction: row-reverse;
