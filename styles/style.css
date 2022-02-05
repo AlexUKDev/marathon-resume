@@ -4,7 +4,7 @@ body {
 }
 
 /* Castom Styles */
-.nonDecoration {
+.noDecoration {
   text-decoration: none;
   color: #a8a8a8;
 }
@@ -17,6 +17,7 @@ body {
   font-size: 12px;
 }
 
+/* Styles for main section */
 .mainSection {
   display: flex;
   flex-direction: row-reverse;
@@ -26,6 +27,7 @@ body {
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.2);
 }
 
+/* Styles for main content section */
 .mainContentSection {
   margin: 100px 0px 100px 88px;
   display: flex;
@@ -43,8 +45,8 @@ li {
   color: #595959;
 }
 
-/* About my Section */
-.aboutMySection {
+/*/* Styles for About my section */
+.aboutMeSection {
   font-size: 14px;
   font-weight: 400;
   color: #000;
@@ -104,6 +106,7 @@ aside {
 img {
   margin-top: 40px;
   width: 370px;
+  /* border-radius: 10px; */
 }
 
 /* Contacts styles */
