@@ -1,0 +1,189 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5f7fa;
+}
+
+/* Castom Styles */
+.noDecoration {
+  text-decoration: none;
+  color: #a8a8a8;
+}
+.СhangeToOrange {
+  color: #fb6d3a;
+}
+
+.castomStyleAndSize {
+  color: #a8a8a8;
+  font-size: 12px;
+}
+
+/* Styles for main section */
+.mainSection {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  background-color: #202125;
+  margin: 40px auto;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for main content section */
+.mainContentSection {
+  margin: 100px 0px 100px 88px;
+  display: flex;
+  flex-direction: column;
+  width: 830px;
+}
+
+ul {
+  padding-left: 17px;
+}
+
+p,
+li {
+  line-height: 24px;
+  color: #595959;
+}
+
+/*/* Styles for About my section */
+.aboutMeSection {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  width: 500px;
+  height: 350px;
+}
+
+.projectsSection {
+  font-weight: 700;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+
+.normalization {
+  font-weight: 400;
+}
+
+.WorckExpirience {
+  margin-bottom: 40px;
+}
+
+.WorckEx {
+  width: 525px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+h2.myProfession {
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 45;
+  font-weight: 700;
+}
+
+h3,
+h4,
+h5 {
+  color: #fff;
+}
+
+aside {
+  margin: 0;
+  color: #ffffff;
+}
+
+/* Styles for left section */
+.sidebarSection {
+  /* margin: 40px; */
+  background-color: #1e2939;
+  width: 370px;
+}
+
+/* Syles for MyPhoto item*/
+img {
+  margin-top: 40px;
+  width: 370px;
+}
+
+/* Contacts styles */
+.contactsSection {
+  margin-left: 40px;
+  margin-bottom: 50px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+a:hover {
+  font-size: 15px;
+  color: #fb6d3a;
+  transition: color 1s;
+}
+
+.BoldSpanContacts {
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.ContactsColor {
+  color: #595959;
+}
+
+.techSkillsSection {
+  margin-left: 40px;
+  margin-bottom: 50px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.WhiteText {
+  color: #ffffff;
+}
+
+.softSkillsSection {
+  margin-left: 40px;
+  margin-bottom: 50px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* Theme selector */
+.ToChangeTheme {
+  background-color: #818181;
+  position: absolute;
+  width: auto;
+  height: 15px;
+  border-radius: 25px;
+  border: none;
+  text-align: center;
+  margin: 10px 10px 0px 670px;
+}
+.LinkToWhite {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  font-size: 8px;
+}
+button:hover {
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+a.LinkToWhite:hover {
+  transition: color 1s;
+  font-size: 8px;
+  color: #fff;
+}
+
+.darkText {
+  color: #000;
+}
