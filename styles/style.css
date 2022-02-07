@@ -24,7 +24,7 @@ body {
   width: 1200px;
   background-color: white;
   margin: 40px auto;
-  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.4);
 }
 
 /* Styles for main content section */
@@ -153,7 +153,7 @@ a:hover {
 /* Theme selector */
 button.ToChangeTheme {
   background-color: #818181;
-  position: absolute;
+  position: fixed;
   width: auto;
   height: 15px;
   border-radius: 25px;
