@@ -151,7 +151,7 @@ a:hover {
 }
 
 /* Theme selector */
-.ToChangeTheme {
+button.ToChangeTheme {
   background-color: #818181;
   position: absolute;
   width: auto;
